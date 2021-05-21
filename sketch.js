@@ -49,7 +49,7 @@ function draw() {
  
   //write code to display text lastFed time here
   fill("black")
-  if(lastFed >= 12){
+  if(lastFed > 12){
     text("Last Feed : " + lastFed % 12 + " PM", 350, 30);
   }else if(lastFed == 0){
     text("Last Feed : 12 AM",350, 30);
